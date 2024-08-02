@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Hero;
+}
+
+body > div {
+    padding: 0 15dvw;
+}
+
+.header {
+    background-color: #1F2937;
+    /* display: flex; */
+}
+
+.logo {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 15dvw;
+}
+
+.logo .title {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font: 18px;
+    gap: 25px;
+}
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 80px 15dvw 120px;
+
+}
+
+.content .izq {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    gap: 10px;
+}
+
+.content .title {
+    /* display: flex; */
+    /* align-items: end; */
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 13px;
+}
+
+.content button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 0;
+    width: 120px;
+    height: 35px;
+}
+.content .der {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    background-color: #a5a5a5;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 15dvw 90px;
+    
+
+}
+
+.information .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 45px;
+}
+
+.cubits {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+}
+
+.cubits > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 130px;
+}
+
+.cubits .cube {
+    border: 3px solid aquamarine;
+    /* flex: 1; */
+    border-radius: 15px;
+    height: 130px;
+    width: 130px;
+}
+
+.phrase {
+    padding: 120px 27dvw;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+    font-weight:300;
+    color: #1F2937;
+}
+.author {
+    align-self: flex-end;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.call {
+    padding: 90px 15dvw;
+}
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 80px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 40px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.signup .text{
+    color: white;
+    flex: 5;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 15dvw;
+}
